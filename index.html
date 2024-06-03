@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ml5.js handPose p5 Webcam Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.20.0-alpha.4/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <section id="page1" class="page1">
+      <h1 class="heading">Game Start</h1>
+      <div class = "phone">
+        <img src="media/phone.jpeg" width="200">
+        <img src="media/cover.gif" width="200" position:absolute>
+      </div>
+     
+      <img class = "startbutton" id = "startbutton" src="img/start.png" width="200">
+    </section>
+
+    <section id="pageplay" class="pageplay">
+      <h3>Play</h3>
+      <button id="backbutton" class="button">back</button>
+      <div id="canvas-container"></div>
+    </div>
+  </section>
+  
+    <script src="sketch.js"></script>
+  </body>
+</html>

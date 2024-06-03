@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  
+  #canvas-container {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+  }
+  
+  .page1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+
+  .hidden {
+    display: none !important;
+    /* visibility: ; */
+    /* visibility: hidden; */
+  }
+  
+  .pagecolorchange {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .startbutton {
+    animation: moveUpDown 2s infinite
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(20px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+  }
